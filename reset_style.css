@@ -34,10 +34,10 @@ select {
 /* }  */
 
 .debug,
-.debug > * {
-  border: 3px dashed red;
-  padding: 6px;
-  min-height: 30px;
+.debug * {
+  border: 1px dashed red;
+  /* padding: 6px;
+  min-height: 30px; */
 }
 
 body {
