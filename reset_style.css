@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: 0.5s; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* button,
+input,
+textarea,
+select {
+  font: inherit;
+} */
+
+/* a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* button {
+  background: none;
+  border: none;
+  cursor: pointer;
+} */
+
+/* ul, ol { */
+/* list-style: none; */
+/* list-style-type: none; */
+/* }  */
+
+.debug,
+.debug > * {
+  border: 3px dashed red;
+  padding: 6px;
+  min-height: 30px;
+}
+
+body {
+  margin: 0 auto;
+}
