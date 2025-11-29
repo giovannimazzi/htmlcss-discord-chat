@@ -78,7 +78,7 @@
 
 .app-header {
   min-height: 70px;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .header-title {
@@ -89,7 +89,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .header-btn {
@@ -130,7 +130,30 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 5px 0 6px;
+  padding: 0 20px 0 16px;
+  border-radius: 20px;
+}
+
+.chat-item:hover,
+.chat-item:hover * {
+  background-color: #26262e;
+  opacity: 1;
+}
+
+.chat-item:hover .chat-icon::after {
+  border-color: #26262e;
+}
+
+.chat-status-offline::after {
+  background-color: #f94349;
+}
+
+.chat-status-busy::after {
+  background-color: #f4a71b;
+}
+
+.chat-status-online::after {
+  background-color: #39a65d;
 }
 
 .chat-icon {
@@ -145,7 +168,6 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #f94349;
   bottom: -5px;
   right: -5px;
   border: 5px solid #1c1d22;
