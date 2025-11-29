@@ -8,14 +8,14 @@
 }
 
 .app-footer {
-  min-height: 80px;
+  min-height: 70px;
   background-color: #2d2d35;
   margin-top: auto;
   border-right: 1px solid #141318;
 }
 
 .app-main {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 70px);
   display: flex;
   background-color: #141318;
 }
@@ -67,7 +67,10 @@
 }
 
 .nav-bar-icon {
+  width: 1.8rem;
+  height: 1.8rem;
   font-size: 1.5rem;
+  margin-bottom: 3px;
 }
 
 .nav-bar-desc {
@@ -75,8 +78,8 @@
 }
 
 .profile-img {
-  width: 30px;
-  height: 30px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #2d2d35;
   border-radius: 50%;
 }
